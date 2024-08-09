@@ -1,5 +1,5 @@
 # MediaAI-web
-A Free open Source Tool to Transcribe AUdio to text Using Microphone. Next planned to increase the accuracy, language and file format supports to extend the capability of this toolto edit your everyday media related things.
+A Free open source tool to Transcribe Audio to text using Microphone. Next planned to increase the accuracy, language and file format supports to extend the capability of this tool to edit your everyday media related things.
 
 ![License](https://img.shields.io/github/license/saad-naseer/MediaAI-web)
 ![Workflow Status](https://github.com/saad-naseer/MediaAI-web/actions/workflows/static.yml/badge.svg)
