@@ -7,7 +7,10 @@ async function init() {
     try {
         console.log('Initializing Vosk model...');
         // Replace 'model.tar.gz' with the correct path to your model file
-        const model = await Vosk.createModel('https://github.com/Saad-Naseer/MediaAI-web/blob/main/model/model.tar.gz');
+        const corsProxy = 'https://cors-anywhere.herokuapp.com/';
+        const modelUrl = 'https://github.com/Saad-Naseer/MediaAI-web/raw/main/model/model.tar.gz';
+        const proxiedModelUrl = corsProxy + modelUrl;
+        const model = await Vosk.createModel(proxiedModelUrl);
         console.log('Vosk model loaded successfully.');
 
         recognizer = new model.KaldiRecognizer();
