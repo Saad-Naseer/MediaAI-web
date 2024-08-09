@@ -4,4 +4,4 @@ A Free open source tool to Transcribe Audio to text using Microphone. Next plann
 ![License](https://img.shields.io/github/license/saad-naseer/MediaAI-web)
 ![Workflow Status](https://github.com/saad-naseer/MediaAI-web/actions/workflows/static.yml/badge.svg)
 ![GitHub Views](https://komarev.com/ghpvc/?username=saad-naseer&repo=MediaAI-web&color=blue)
-![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-lightgrey?logo=github-sponsors)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/saadrocky?country.x=DE&locale.x=en_US)
