@@ -7,7 +7,7 @@ async function init() {
     try {
         console.log('Initializing Vosk model...');
         // Replace 'model.tar.gz' with the correct path to your model file
-        const model = await Vosk.createModel('model\\model.tar.gz');
+        const model = await Vosk.createModel('https://github.com/Saad-Naseer/MediaAI-web/blob/main/model/model.tar.gz');
         console.log('Vosk model loaded successfully.');
 
         recognizer = new model.KaldiRecognizer();
