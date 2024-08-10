@@ -11,7 +11,7 @@ async function init() {
         const modelUrl = 'https://github.com/Saad-Naseer/MediaAI-web/raw/main/model/model.tar.gz';
         const proxiedModelUrl = corsProxy + modelUrl;
 
-        const model = await Vosk.createModel('/model.tar.gz');
+        const model = await Vosk.createModel('model/model.tar.gz');
         console.log('Vosk model loaded successfully.');
 
         recognizer = new model.KaldiRecognizer();
