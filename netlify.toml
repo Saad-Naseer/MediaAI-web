@@ -1,6 +1,8 @@
+
 [build]
-  publish = "./public"
-  command = "mkdir -p ./public && curl -L https://github.com/Saad-Naseer/MediaAI-web/raw/main/model/model.tar.gz -o ./public/model.tar.gz"
+  publish = "."
+  command = "mkdir -p ./model && curl -L https://github.com/Saad-Naseer/MediaAI-web/raw/main/model/model.tar.gz -o ./model/model.tar.gz"
+
 
 [[headers]]
   for = "/*"
