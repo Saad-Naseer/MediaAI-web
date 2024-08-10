@@ -7,4 +7,4 @@ A Free open source tool to Transcribe Audio to text using Microphone. Next plann
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/saadrocky?country.x=DE&locale.x=en_US)
 
 To use the demo version of the tool:
-https://saad-naseer.github.io/MediaAI-web/
+[Visit the website](https://mediaai.netlify.app/)
