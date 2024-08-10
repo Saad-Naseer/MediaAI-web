@@ -10,7 +10,7 @@ async function init() {
         const corsProxy = 'https://cors-anywhere.herokuapp.com/';
         const modelUrl = 'https://github.com/Saad-Naseer/MediaAI-web/raw/main/model/model.tar.gz';
         const proxiedModelUrl = corsProxy + modelUrl;
-        const modelUrl1 = 'https://cdn.jsdelivr.net/gh/username/MediaAI-web@main/model/model.tar.gz';
+        const modelUrl1 = 'https://cdn.jsdelivr.net/gh/saad-naseer/MediaAI-web@main/model/model.tar.gz';
 
         const model = await Vosk.createModel(modelUrl1);
         console.log('Vosk model loaded successfully.');
